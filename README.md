@@ -1,12 +1,27 @@
-# Elevators
-## Side Project
-1. There is a multi-floor building (the number of floors is configurable). The building has elevators (the number is configurable). On each floor, there are call buttons “up” and “down” (typical for all elevators). On each floor, people appear (random mass) who want to go to another floor (random). The intensity of the generation of people is configurable on a floor basis.
-2. Each elevator has a load capacity, speed, and door opening/closing speed.
-3. A person has a mass and a floor to which he needs.
-4. People stand in line to board the elevators (one line up, one line down) without disturbing it. Arriving at the desired floor, the person disappears.
-**Task.** It is necessary to implement a continuously running application (people appear, call the elevator and go to the desired floor) using multithreading (Thread, wait, notify, sleep).
-You can optionally use `java.util.concurrent`. Also, describe the selected algorithm in a text (briefly).
-- tests, maven, logging;
-- implement the collection of statistics (how many people were transported by each elevator, from which floors, and to which floors);
-- log the main events of the system (so that you can follow what is happening in the logs);
-- recommendation: implement the elevator control logic, cover it with tests without threads and enable multithreading.
+Elevator control system:
+
+Elevator control system is a Java project that involves simulating a multi-floor building with configurable numbers of floors and elevators. The goal of the project is to implement a continuously running application using multithreading to simulate the movement of people and elevators. The project also involves collecting statistics and logging main events.
+
+Building and Floors:
+Configurable number of floors
+Each floor has call buttons for "up" and "down"
+People appear at random intervals and with random masses
+Wanting to go to another floor
+
+Elevators:
+Configurable number of elevators
+Load capacity
+Speed
+Door opening/closing speed
+People queue up to board the elevators without disturbing the line
+
+Multithreading:
+Continuously running application
+Simulating the movement of people and elevators
+
+Statistics and Logging:
+Collecting statistics
+Logging main events
+
+Note:
+This project provides a simulation of a multi-floor building, elevators and people movement. The goal of the project is to simulate the elevators behavior in a multi-floor building and collect some statistics.
